@@ -1,10 +1,10 @@
-*
+/*
 !.gitignore
 !README.md
-
-!/wp-content
-/wp-content/*
-!/wp-content/themes
-/wp-content/themes/*
-!/wp-content/themes/dw
 !database.sql
+
+!wp-content
+wp-content/*
+!wp-content/themes
+wp-content/themes/*
+!wp-content/themes/dw
