@@ -34,13 +34,10 @@ class PrimaryMenuWalker extends Walker_Nav_Menu
     function generateBemClasses(string $base, array $modifiers = [])
     {
         // Objectif : "nav__item nav__item--current nav__item--url"
-
         $value = $base;
-
         foreach($modifiers as $modifier) {
             $value .= ' ' . $base . '--' . $modifier;
         }
-
         return $value;
     }
 }
